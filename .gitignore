@@ -1,0 +1,13 @@
+# Jest
+#
+.jest/
+# Visual Studio Code
+#
+.vscode/
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+android/app/build
