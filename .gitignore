@@ -15,3 +15,6 @@ yarn-error.log
 android/.gradle
 android/app/build
 android/app/google-services.json
+.idea/
+android/.idea/
+android/local/
