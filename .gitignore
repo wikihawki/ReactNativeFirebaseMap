@@ -18,3 +18,5 @@ android/app/google-services.json
 .idea/
 android/.idea/
 android/local/
+android/local.properties
+android/app/app.iml
