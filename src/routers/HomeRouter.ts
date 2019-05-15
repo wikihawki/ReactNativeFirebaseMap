@@ -1,11 +1,10 @@
 import { createDrawerNavigator } from "react-navigation";
-import App from "../App";
 import Home from "../containers/app/home/Home";
-import Login from "../containers/auth/login/Login";
+import Map from "../containers/app/map/Map";
 
 export default createDrawerNavigator({
   Home: {
     screen: Home
   },
-  Map: { screen: Home }
+  Map: { screen: Map }
 });

@@ -14,6 +14,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.analytics.RNFirebaseAnalyticsPackage;
 
 import com.facebook.CallbackManager;
 
@@ -29,8 +30,10 @@ public class MainApplication extends Application implements ReactApplication {
 
     @Override
     protected List<ReactPackage> getPackages() {
+
       return Arrays.<ReactPackage>asList(new MainReactPackage(), new RNGestureHandlerPackage(), new RNFirebasePackage(),
-          new FBSDKPackage(mCallbackManager));
+          new FBSDKPackage(mCallbackManager), new RNFirebaseAnalyticsPackage());
+
     }
 
     @Override

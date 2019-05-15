@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "react-native";
 import { Component } from "react";
 import { Platform, StyleSheet, Text, View } from "react-native";
+
 import styles from "./styles";
 type Props = { navigation: any };
 export default class Map extends Component<Props> {
