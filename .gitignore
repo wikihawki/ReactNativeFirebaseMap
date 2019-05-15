@@ -15,13 +15,9 @@ yarn-error.log
 android/.gradle
 android/app/build
 android/app/google-services.json
-<<<<<<< HEAD
-
-/android/.idea
-=======
 .idea/
 android/.idea/
 android/local/
 android/local.properties
 android/app/app.iml
->>>>>>> 5cdd49e4ead0fbde99de0df8910ab24e16f101b6
+
